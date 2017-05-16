@@ -1,0 +1,21 @@
+Akademia C# - wstępny opis projektu
+
+Skład:
+
+Miłosz Okrągły 
+Anna Okrągły
+Piotr Król (lider)
+
+Projekt:
+
+	Aplikacja biblioteki. Technologia WPF
+
+Funkcje aplikacji z podziałem zadań:
+
+Logowanie – 2 użytkowników (administrator, czytelnik) – Miłosz Okrągły
+
+Administrator – dodawanie i usuwanie pozycji z biblioteki, podgląd użytkowników (kto, co i do kiedy wypożyczył) – Anna Okrągły
+Czytelnik – przeglądanie i wypożyczanie książek – Anna Okrągły
+Wysyłanie powiadomienia w momencie wypożyczenia z ogólnymi informacjami – tytuł, autor i termin do oddania – Piotr Król
+Wysyłanie przypomnienia o zwrocie książki na dzień przed upływem terminu – Piotr Król
+
