@@ -15,14 +15,14 @@ namespace LibraryWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Na tej stronie znajdziesz wszystko to, co mamy do zaoferowania.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Jeli masz jakieś uwagi, pomysły na ulepszenie aplikacji, lub po prostu szukasz pomocy z aplikacją tu znajdziesz nasze dane kontaktowe:";
 
             return View();
         }
