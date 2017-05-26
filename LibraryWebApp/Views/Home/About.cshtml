@@ -2,6 +2,17 @@
     ViewBag.Title = "Nasza biblioteka";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Poniżej alfabetyczna lista naszych książek:</p>
+<p><font size="4">
+    Tu znajdziesz listę wszystkich dostepnych książek do wypożyczenia.<br />
+    Poniżej alfabetyczna lista naszych książek:
+</font></p>
+
+
+
+
+<h2><font size="4">@ViewBag.Message</font></h2>
+<form method="post">
+    <textarea name="Wiadomość"></textarea>
+    <input type="submit" value=" Wyślij". />
+</form>

@@ -15,7 +15,15 @@ namespace LibraryWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Na tej stronie znajdziesz wszystko to, co mamy do zaoferowania.";
+            ViewBag.Message = "Jesli nie znalazłeś tego co szukałeś - przekaż nam informcaje o autorze i tytule. Postaramy się uzupełnić naszą bazę o tą pozycję.";
+
+            return View();
+        }
+        [HttpPost]
+        public ActionResult About(string message)
+        {
+            //TODO : send message to LibraryApp
+            ViewBag.Message = "Dziękujemy za zgłoszenie. Postaramy się jak najszybciej uzupełnić naszą bibliotekę.";
 
             return View();
         }
